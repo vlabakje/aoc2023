@@ -30,7 +30,7 @@
               modules = [
                 {
                   # https://devenv.sh/reference/options/
-                  packages = [ pkgs.hello pkgs.python312 ];
+                  packages = [ pkgs.hello pkgs.python312 pkgs.entr ];
 
                   enterShell = ''
                     hello
