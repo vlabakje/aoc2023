@@ -2,7 +2,7 @@
 
 Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 
-![](https://img.shields.io/badge/stars%20⭐-11-yellow) ![](https://img.shields.io/badge/days%20completed-5-red)
+![](https://img.shields.io/badge/stars%20⭐-12-yellow) ![](https://img.shields.io/badge/days%20completed-6-red)
 
 | day | Problem             | Part one                 | Part two                 | Stars won                                            |
 |----:|:--------------------|:-------------------------|:-------------------------|:-----------------------------------------------------|
@@ -10,7 +10,7 @@ Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 |  02 | Cube Conundrum      | [**one**](day02/one.py) | [**two**](day02/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  03 | Gear Ratios         | [**one**](day03/one.py) | [**two**](day03/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  04 | Scratchcards        | [**one**](day04/one.py) | [**two**](day04/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
-|  05 | If you give a seed  | [**one**](day05/one.py) | [**two**](day05/two.py) | ![](https://img.shields.io/badge/stars%20⭐-1-yellow) |
+|  05 | If you give a seed  | [**one**](day05/one.py) | [**two**](day05/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  06 | Wait for it         | [**one**](day06/one.py) | [**two**](day06/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 
 *Badges from: https://github.com/J0B10/aoc-badges-action*
