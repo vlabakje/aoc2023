@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from collections import Counter
 from enum import IntEnum
 
@@ -16,49 +16,41 @@ CARDVALUES={v: k for k,v in enumerate("AKQJT98765432J")}
 
 @dataclass(order=True)
 class Hand:
-    cards: str
-    bid: int
+    cards: str = field(compare=False)
+    bid: int = field(compare=False)
+    order: tuple = field(init=False, repr=False)
 
     def __post_init__(self):
-        ix = [self._type()] + [CARDVALUES[c] for c in self.cards]
-        self.sort_index = tuple(ix)
+        self.order = tuple([self._type()] + [CARDVALUES[c] for c in self.cards])
 
     def _type(self):
         c = Counter(self.cards)
-        if c["J"] > 0:
-            j = c["J"]
-            del c["J"]
-            if j == 5:
-                c.update("2"*j)
-            else:
-                c.update(c.most_common(1)[0][0]*j)
-        s = tuple(sorted(c.values()))
-        if len(s) == 1:
-            return Types.FIVE
-        if s == (1, 4):
-            return Types.FOUR
-        if s == (2, 3):
-            return Types.FULLHOUSE
-        if s == (1, 1, 3):
-            return Types.THREE
-        if s == (1, 2, 2):
-            return Types.TWOPAIR
-        if s == (1, 1, 1, 2):
-            return Types.ONEPAIR
-        if s == (1, 1, 1, 1, 1):
-            return Types.HIGH
-        return Types.NONE
+        if c["J"] == 5:  # catch the edge case of "JJJJJ"
+            c = Counter("22222")
+        elif c["J"] > 0:
+            c.update(c.most_common(1)[0][0] * c.pop("J"))
+        match tuple(sorted(c.values())):
+            case (_, ):
+                return Types.FIVE
+            case (1, 4):
+                return Types.FOUR
+            case (2, 3):
+                return Types.FULLHOUSE
+            case (1, 1, 3):
+                return Types.THREE
+            case (1, 2, 2):
+                return Types.TWOPAIR
+            case (1, 1, 1, 2):
+                return Types.ONEPAIR
+            case (1, 1, 1, 1, 1):
+                return Types.HIGH
+            case _:
+                raise NotImplementedError(f"invalid hand {self.cards=} {c=}")
 
 def main(filename):
     with open(filename) as fileh:
-        hands = []
-        for line in fileh:
-            cards, _, bid = line.partition(" ")
-            hands.append(Hand(cards, int(bid)))
-        hands = sorted(hands, key=lambda h: h.sort_index, reverse=True)
-        #for rank, h in enumerate(hands, start=1):
-        #    print(rank, h, h.sort_index)
-        return sum(rank * h.bid for rank, h in enumerate(hands, start=1))
+        hands = sorted([Hand(p[0], int(p[1])) for p in map(lambda line: line.split(), fileh)], reverse=True)
+        return sum(rank * hand.bid for rank, hand in enumerate(hands, start=1))
 
 if __name__ == "__main__":
     print(main("example"))
