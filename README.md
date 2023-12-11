@@ -2,7 +2,7 @@
 
 Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 
-![](https://img.shields.io/badge/stars%20⭐-18-yellow) ![](https://img.shields.io/badge/days%20completed-10-red)
+![](https://img.shields.io/badge/stars%20⭐-20-yellow) ![](https://img.shields.io/badge/days%20completed-10-red)
 
 | day | Problem             | Part one                 | Part two                 | Stars won                                            |
 |----:|:--------------------|:-------------------------|:-------------------------|:-----------------------------------------------------|
@@ -15,6 +15,7 @@ Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 |  07 | Camel Cards         | [**one**](day07/one.py) | [**two**](day07/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  08 | Haunted Wasteland   | [**one**](day08/one.py) | [**two**](day08/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  09 | Mirage Maintenance  | [**one**](day09/one.py) | [**two**](day09/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
+|  10 | Pipe Maze           | [**one**](day10/one.py) | [**two**](day10/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 
 *Badges from: https://github.com/J0B10/aoc-badges-action*
 
