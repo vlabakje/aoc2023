@@ -2,7 +2,7 @@
 
 Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 
-![](https://img.shields.io/badge/stars%20⭐-24-yellow) ![](https://img.shields.io/badge/days%20completed-12-red)
+![](https://img.shields.io/badge/stars%20⭐-26-yellow) ![](https://img.shields.io/badge/days%20completed-13-red)
 
 | day | Problem             | Part one                 | Part two                 | Stars won                                            |
 |----:|:--------------------|:-------------------------|:-------------------------|:-----------------------------------------------------|
@@ -18,6 +18,7 @@ Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 |  10 | Pipe Maze           | [**one**](day10/one.py) | [**two**](day10/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  11 | Cosmic Expansion    | [**one**](day11/one.py) | [**two**](day11/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  12 | Hot Springs         | [**one**](day12/one.py) | [**two**](day12/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
+|  13 | Point of Incidence  | [**one**](day13/one.py) | [**two**](day13/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 
 *Badges from: https://github.com/J0B10/aoc-badges-action*
 
