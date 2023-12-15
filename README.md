@@ -2,7 +2,7 @@
 
 Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 
-![](https://img.shields.io/badge/stars%20⭐-28-yellow) ![](https://img.shields.io/badge/days%20completed-14-red)
+![](https://img.shields.io/badge/stars%20⭐-30-yellow) ![](https://img.shields.io/badge/days%20completed-15-red)
 
 | day | Problem             | Part one                 | Part two                 | Stars won                                            |
 |----:|:--------------------|:-------------------------|:-------------------------|:-----------------------------------------------------|
@@ -20,6 +20,7 @@ Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 |  12 | Hot Springs         | [**one**](day12/one.py) | [**two**](day12/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  13 | Point of Incidence  | [**one**](day13/one.py) | [**two**](day13/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  14 | Parabolic Reflector | [**one**](day14/one.py) | [**two**](day14/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
+|  15 | Lens Library        | [**one**](day15/one.py) | [**two**](day15/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 
 *Badges from: https://github.com/J0B10/aoc-badges-action*
 
