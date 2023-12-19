@@ -2,7 +2,7 @@
 
 Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 
-![](https://img.shields.io/badge/stars%20⭐-34-yellow) ![](https://img.shields.io/badge/days%20completed-17-red)
+![](https://img.shields.io/badge/stars%20⭐-36-yellow) ![](https://img.shields.io/badge/days%20completed-18-red)
 
 | day | Problem             | Part one                 | Part two                 | Stars won                                            |
 |----:|:--------------------|:-------------------------|:-------------------------|:-----------------------------------------------------|
@@ -23,6 +23,7 @@ Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 |  15 | Lens Library        | [**one**](day15/one.py) | [**two**](day15/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  16 | The Floor Will ..   | [**one**](day16/one.py) | [**two**](day16/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  17 | Clumsy Crucible     | [**one**](day17/one.py) | [**two**](day17/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
+|  17 | Lavaduct Lagoon     | [**one**](day18/one.py) | [**two**](day18/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 
 *Badges from: https://github.com/J0B10/aoc-badges-action*
 
