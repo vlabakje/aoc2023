@@ -2,7 +2,7 @@
 
 Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 
-![](https://img.shields.io/badge/stars%20⭐-38-yellow) ![](https://img.shields.io/badge/days%20completed-19-red)
+![](https://img.shields.io/badge/stars%20⭐-40-yellow) ![](https://img.shields.io/badge/days%20completed-20-red)
 
 | day | Problem             | Part one                 | Part two                 | Stars won                                            |
 |----:|:--------------------|:-------------------------|:-------------------------|:-----------------------------------------------------|
@@ -25,6 +25,7 @@ Working on [Advent of Code 2023](https://adventofcode.com/2023/)!
 |  17 | Clumsy Crucible     | [**one**](day17/one.py) | [**two**](day17/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  18 | Lavaduct Lagoon     | [**one**](day18/one.py) | [**two**](day18/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 |  19 | Aplenty             | [**one**](day19/one.py) | [**two**](day19/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
+|  20 | Pulse Propagation   | [**one**](day20/one.py) | [**two**](day20/two.py) | ![](https://img.shields.io/badge/stars%20⭐-2-yellow) |
 
 *Badges from: https://github.com/J0B10/aoc-badges-action*
 
